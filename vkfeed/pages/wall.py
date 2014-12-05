@@ -72,7 +72,7 @@ class WallPage(webapp2.RequestHandler):
 
                 from vkfeed.tools import wall_reader
 
-                max_posts_num = 50
+                max_posts_num = 150
                 cur_time = int(time.time())
                 latency = constants.MINUTE_SECONDS
                 min_timestamp = cur_time - constants.WEEK_SECONDS
