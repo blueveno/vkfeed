@@ -1,4 +1,4 @@
-application: vkontakte-feed
+application: vgraceful-wall-785
 version: 1
 runtime: python27
 threadsafe: true
